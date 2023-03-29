@@ -3,9 +3,7 @@ part of 'app_bloc.dart';
 enum AppStatus {
   authenticated,
   unauthenticated,
-  assigned,
-  unassigned,
-  initialized,
+
 }
 
 class AppState extends Equatable {
@@ -27,7 +25,7 @@ class AppState extends Equatable {
   @override
   List<Object> get props => [status, user, group];
 
-  AppState copyWith({
+   AppState copyWith({
     AppStatus? status,
     User? user,
     String? group,
