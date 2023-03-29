@@ -1,4 +1,4 @@
-import 'package:mobile/log_flow/log_flow.dart';
+import 'package:continual_care_beta/log_flow/log_flow.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

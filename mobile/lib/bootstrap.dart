@@ -10,7 +10,7 @@ import 'dart:developer';
 
 import 'package:authentication_repository/authentication_repository.dart';
 import 'package:bloc/bloc.dart';
-import 'package:mobile/app/app.dart';
+import 'package:continual_care_beta/app/app.dart';
 import 'package:flutter/widgets.dart';
 import 'package:jobs_api/jobs_api.dart';
 import 'package:jobs_repository/jobs_repository.dart';

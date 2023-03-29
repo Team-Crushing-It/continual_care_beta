@@ -1,4 +1,4 @@
-import 'package:mobile/home_overview/home_overview.dart';
+import 'package:continual_care_beta/home_overview/home_overview.dart';
 import 'package:flutter/material.dart';
 import 'package:jobs_api/jobs_api.dart';
 

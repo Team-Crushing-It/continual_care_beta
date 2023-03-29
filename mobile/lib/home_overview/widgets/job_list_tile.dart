@@ -1,4 +1,4 @@
-import 'package:mobile/home_overview/widgets/widgets.dart';
+import 'package:continual_care_beta/home_overview/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:jobs_repository/jobs_repository.dart';
 import 'package:intl/intl.dart';

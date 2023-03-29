@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:mobile/sign_up/sign_up.dart';
+import 'package:continual_care_beta/sign_up/sign_up.dart';
 import 'package:formz/formz.dart';
 
 class SignUpForm extends StatelessWidget {

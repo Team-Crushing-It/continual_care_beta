@@ -1,7 +1,7 @@
-import 'package:mobile/app/app.dart';
-import 'package:mobile/app/widgets.dart/animated_logo.dart';
-import 'package:mobile/edit_job/edit_job.dart';
-import 'package:mobile/home_overview/bloc/home_overview_bloc.dart';
+import 'package:continual_care_beta/app/app.dart';
+import 'package:continual_care_beta/app/widgets.dart/animated_logo.dart';
+import 'package:continual_care_beta/edit_job/edit_job.dart';
+import 'package:continual_care_beta/home_overview/bloc/home_overview_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:rive/rive.dart';

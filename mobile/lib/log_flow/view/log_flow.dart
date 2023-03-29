@@ -1,6 +1,6 @@
-import 'package:mobile/app/bloc/app_bloc.dart';
-import 'package:mobile/app/view/loading_page.dart';
-import 'package:mobile/log_flow/log_flow.dart';
+import 'package:continual_care_beta/app/bloc/app_bloc.dart';
+import 'package:continual_care_beta/app/view/loading_page.dart';
+import 'package:continual_care_beta/log_flow/log_flow.dart';
 
 import 'package:flow_builder/flow_builder.dart';
 import 'package:flutter/material.dart';

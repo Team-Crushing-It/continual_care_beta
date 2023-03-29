@@ -1,5 +1,5 @@
 import 'package:bloc/bloc.dart';
-import 'package:mobile/home_overview/home_overview.dart';
+import 'package:continual_care_beta/home_overview/home_overview.dart';
 import 'package:equatable/equatable.dart';
 import 'package:jobs_api/jobs_api.dart';
 import 'package:jobs_repository/jobs_repository.dart';

@@ -1,6 +1,5 @@
-import 'package:mobile/log_flow/log_flow.dart';
-import 'package:mobile/login/login.dart';
-import 'package:mobile/sign_up/view/sign_up_page.dart';
+import 'package:continual_care_beta/login/login.dart';
+import 'package:continual_care_beta/sign_up/view/sign_up_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

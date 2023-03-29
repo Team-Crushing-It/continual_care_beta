@@ -1,7 +1,7 @@
-import 'package:mobile/app/app.dart';
-import 'package:mobile/home_overview/bloc/home_overview_bloc.dart';
-import 'package:mobile/home_overview/home_overview.dart';
-import 'package:mobile/log_flow/log_flow.dart';
+import 'package:continual_care_beta/app/app.dart';
+import 'package:continual_care_beta/home_overview/bloc/home_overview_bloc.dart';
+import 'package:continual_care_beta/home_overview/home_overview.dart';
+import 'package:continual_care_beta/log_flow/log_flow.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:jobs_repository/jobs_repository.dart';
