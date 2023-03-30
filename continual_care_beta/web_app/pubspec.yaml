@@ -31,17 +31,17 @@ dependencies:
   flutter:
     sdk: flutter
   authentication_repository:
-    path: packages/authentication_repository
+    path: ../packages/authentication_repository
   firestore_jobs_api:
-    path: packages/firestore_jobs_api
+    path: ../packages/firestore_jobs_api
   flutter_bloc: ^8.1.1
   flow_builder: ^0.0.9
   form_inputs:
-    path: packages/form_inputs
+    path: ../packages/form_inputs
   jobs_api:
-    path: packages/jobs_api
+    path: ../packages/jobs_api
   jobs_repository:
-    path: packages/jobs_repository
+    path: ../packages/jobs_repository
   bloc: ^8.1.1
 
   # The following adds the Cupertino Icons font to your application.
@@ -66,4 +66,4 @@ flutter:
   uses-material-design: true
   generate: true
   assets:
-    - assets/
+    - ../assets/
