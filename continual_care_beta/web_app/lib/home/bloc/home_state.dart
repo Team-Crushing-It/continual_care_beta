@@ -6,21 +6,21 @@ part of 'home_bloc.dart';
 class HomeState extends Equatable {
   /// {@macro home_state}
   const HomeState({
-    this.customProperty = 'Default Value',
+    this.caregivers,
   });
 
-  /// A description for customProperty
-  final String customProperty;
+  /// A description for caregivers
+  final List<User>? caregivers;
 
   @override
-  List<Object> get props => [customProperty];
+  List<Object?> get props => [caregivers];
 
   /// Creates a copy of the current HomeState with property changes
   HomeState copyWith({
-    String? customProperty,
+    List<User>? caregivers,
   }) {
     return HomeState(
-      customProperty: customProperty ?? this.customProperty,
+      caregivers: caregivers ?? this.caregivers,
     );
   }
 }
