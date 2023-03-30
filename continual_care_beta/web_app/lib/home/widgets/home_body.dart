@@ -14,7 +14,7 @@ class HomeBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocBuilder<HomeBloc, HomeState>(
       builder: (context, state) {
-        return Center(child: Text(state.customProperty));
+        return Center();
       },
     );
   }
