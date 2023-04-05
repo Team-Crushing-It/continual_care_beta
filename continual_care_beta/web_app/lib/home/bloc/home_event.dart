@@ -15,3 +15,11 @@ class CustomHomeEvent extends HomeEvent {
   /// {@macro custom_home_event}
   const CustomHomeEvent();
 }
+
+/// {@template custom_home_event}
+/// Event added when some custom logic happens
+/// {@endtemplate}
+class HomeSubscriptionRequested extends HomeEvent {
+  /// {@macro custom_home_event}
+  const HomeSubscriptionRequested();
+}

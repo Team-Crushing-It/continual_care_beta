@@ -17,6 +17,9 @@ class JobsRepository {
   /// Provides a [Stream] of all jobs.
   Stream<List<Job>> getJobs(String group) => _jobsApi.getJobs(group);
 
+  /// Gets a stream of users
+  Stream<List<User>> getUsers() => _jobsApi.getUsers();
+
   /// Saves a [job].
   ///
   /// If a [job] with the same id already exists, it will be replaced.

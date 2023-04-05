@@ -11,6 +11,9 @@ abstract class JobsApi {
   /// Provides a [Stream] of all jobs.
   Stream<List<Job>> getJobs(String group);
 
+    /// Provides a [Stream] of all users.
+  Stream<List<User>> getUsers();
+
   /// Saves a [job].
   ///
   /// If a [job] with the same id already exists, it will be replaced.

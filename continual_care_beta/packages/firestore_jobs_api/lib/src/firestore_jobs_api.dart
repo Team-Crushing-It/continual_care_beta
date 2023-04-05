@@ -18,6 +18,12 @@ class FirestoreJobsApi implements JobsApi {
         toFirestore: (job, _) => job.toJson(),
       );
 
+  /// a converter method for maintaining type-safety
+  late final userCollection = _firestore.collection('users').withConverter<User>(
+        fromFirestore: (snapshot, _) => User.fromJson(snapshot.data()!),
+        toFirestore: (user, _) => user.toJson(),
+      );
+
   /// This stream orders the [Job]'s by the
   /// time they were created, and then converts
   /// them from a [DocumentSnapshot] into
@@ -108,5 +114,18 @@ class FirestoreJobsApi implements JobsApi {
       batch.commit();
       return completedJobsAmount;
     });
+  }
+
+  /// This method is used to get a list of all the
+  /// users in the database
+  @override
+  Stream<List<User>> getUsers() {
+    return userCollection.snapshots().map(
+      (snapshot) {
+        // print(snapshot.docs.length);
+        // print(snapshot.docs[0].data().client);
+        return snapshot.docs.map((e) => e.data()).toList();
+      },
+    );
   }
 }

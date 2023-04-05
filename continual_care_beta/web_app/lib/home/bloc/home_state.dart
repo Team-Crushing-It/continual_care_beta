@@ -25,10 +25,3 @@ class HomeState extends Equatable {
   }
 }
 
-/// {@template home_initial}
-/// The initial state of HomeState
-/// {@endtemplate}
-class HomeInitial extends HomeState {
-  /// {@macro home_initial}
-  const HomeInitial() : super();
-}
